@@ -1,0 +1,5 @@
+SELECT     tbl_material.nombre_material, tbl_reserva.estado_reserva AS Disponibilidad
+FROM		tbl_material INNER JOIN
+				tbl_reserva ON tbl_material.id_material = tbl_reserva.id_material
+GROUP BY	tbl_material.nombre_material, tbl_reserva.estado_reserva
+ORDER BY 	tbl_material.id_material,  tbl_reserva.estado_reserva, Disponibilidad

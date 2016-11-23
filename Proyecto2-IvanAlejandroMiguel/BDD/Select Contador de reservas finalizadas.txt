@@ -1,0 +1,1 @@
+SELECT count(*) FROM `tbl_reserva` WHERE `fechaF_reserva`

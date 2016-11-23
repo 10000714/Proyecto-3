@@ -1,0 +1,4 @@
+
+UPDATE tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+SET (ID, CURRENT_TIMESTAMP, NULL, '0');
+	

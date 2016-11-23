@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form name="f1" action="formulario_prueba.php" method="GET" onsubmit="return validar();">
+    
+        <table style="border-spacing: 15px; border-collapse: inherit;" > 
+        <tr>
+          <td>
+          <br/>
+             <strong><h2><u>Reserva:</u></h2><br/></strong>
+              
+ 	<strong>Tipo Recurso :    </strong>
+    
+            <select name="material" id="material"> 
+            <optgroup label="Aulas">
+              <option value="Aula1" >Aula de Mates</option>
+              <option value="Aula2">Aula de Inglés</option>
+              <option value="Aula3">Aula de Castellano</option>
+              <option value="Aula4">Aula de Física</option>
+              <option value="Aula5" >Aula de Informática 1</option>
+              <option value="Aula6">Aula de Informática 2</option>
+              <option value="Aula7" >Sala de Reuniones</option>
+              <option value="Aula8">Despacho de Entrevistas 1</option>
+              <option value="Aula9" >Despacho de Entrevistas 2</option>
+              </optgroup> 
+
+          
+              <optgroup label="Portátiles">
+              <option value="Portatil1">Portátil 1</option>
+              <option value="Portatil2">Portátil 2</option>
+              <option value="Portatil3" >Portátil 3</option>
+              </optgroup>
+
+              <optgroup label="Móviles">
+              <option value="Movil1">Móvil 1</option>
+              <option value="Movil2">Móvil 2</option>
+              </optgroup>
+           
+              <optgroup label="Otros">
+              <option value="Proyector">Proyector</option>
+              <option value="Carro">Carro</option>
+              </optgroup> 
+		
+              <input style  ="background-color:#90EE90 ; margin-left: 10px;" type="submit" name="reservar" value="Reservar"/><br/><br/></td>
+      
+            
+          </select><br/>
+    </td>
+</tr>
+<tr>
+<td></td>
+<br/>
+ 
+</tr>
+        
+        </table>
+
+
+</body>
+</html>

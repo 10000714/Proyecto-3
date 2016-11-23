@@ -1,0 +1,7 @@
+INSERT INTO bd_educayaprende.tbl_incidencia (id_incidencia, tipo_incidencia, comentario_incidencia, estado_incidencia) 
+	VALUES ('001', 'Desperfectos Menores', 'Durante la última clase de física ha habido un pequeño incidente con el proyector y se ha desconfigurado, ahora se visualizan las proyecciones como la intro de star wars', 'A resolver');
+INSERT INTO bd_educayaprende.tbl_incidencia (id_incidencia, tipo_incidencia, comentario_incidencia, estado_incidencia) 
+	VALUES ('002', 'Desperfectos Mayores', 'El carro se ha caido por las escaleras y esta ligeramente doblado, es todavía usable y no parece haber sufrido graves daños', 'Resuelto');
+INSERT INTO bd_educayaprende.tbl_incidencia (id_incidencia, tipo_incidencia, comentario_incidencia, estado_incidencia) 
+	VALUES ('003', 'Desperfectos Graves', 'A un alumno se le ha caído el portátil 2 y la pantalla se ha roto ligeramente, pese a que se puede usar aún, se tendrá que cambiar tarde o temprano', 'A resolver');
+

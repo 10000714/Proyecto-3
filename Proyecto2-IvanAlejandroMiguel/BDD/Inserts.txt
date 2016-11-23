@@ -1,0 +1,20 @@
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000001', '2016-10-17 13:04:16[. 000]', '2016-10-17 17:00:32[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000002', '2016-11-03 13:03:54[. 000]', 'NULL', 'En activo');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000003', '2016-10-29 13:01:43[. 000]', '2016-10-29 16:59:51[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000004', '2016-10-24 13:02:35[. 000]', '2016-10-24 17:00:07[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000005', '2016-11-02 13:04:16[. 000]', 'NULL', 'En Activo');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000006', '2016-10-20 13:07:42[. 000]', '2016-10-20 17:01:03[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000007', '2016-11-04 13:03:54[. 000]', 'NULL', 'En activo');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000008', '2016-10-25 13:01:57[. 000]', '2016-10-25 16:57:06[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000009', '2016-10-27 13:06:23[. 000]', '2016-10-27 17:06:58[. nnn]', 'Finalizada');
+INSERT INTO bd_educayaprende.tbl_reserva (id_reserva, fecha_reserva, fechaF_reserva, estado_reserva) 
+	VALUES ('0000010', '2016-11-01 13:04:16[. 000]', 'NULL', 'En Activo');

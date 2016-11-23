@@ -1,0 +1,10 @@
+INSERT INTO bd_educayaprende.tbl_usuario (id_usuario, usuario_usuario, password_usuario, nombre_usuario, apellidos_usuario, tipo_usuario) 
+	VALUES ('00001', 'dmarin','dm1234', 'David', 'Marín Salvador', 'Profesor');
+INSERT INTO bd_educayaprende.tbl_usuario (id_usuario, usuario_usuario, password_usuario, nombre_usuario, apellidos_usuario, tipo_usuario) 
+	VALUES ('00002', 'sjimenez','sj1234', 'Sergio', 'Jímenez Garcia', 'Profesor');
+INSERT INTO bd_educayaprende.tbl_usuario (id_usuario, usuario_usuario, password_usuario, nombre_usuario, apellidos_usuario, tipo_usuario) 
+	VALUES ('00003', 'aplans','ap1234', 'Agnés', 'Plans Berenguer', 'Profesor');
+INSERT INTO bd_educayaprende.tbl_usuario (id_usuario, usuario_usuario, password_usuario, nombre_usuario, apellidos_usuario, tipo_usuario) 
+	VALUES ('00004', 'iromero','ir1234', 'Ignasi', 'Romero Sanjuan', 'Profesor');
+INSERT INTO bd_educayaprende.tbl_usuario (id_usuario, usuario_usuario, password_usuario, nombre_usuario, apellidos_usuario, tipo_usuario) 
+	VALUES ('00005', 'rfuste','rf1234', 'Roger', 'Fusté Arroyo', 'Alumno');

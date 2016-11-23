@@ -1,0 +1,31 @@
+<html>
+  <head>
+  <script language="javascript" type="text/javascript">
+    function volver(){
+      document.retorno.submit();
+    }
+  </script>
+  </head>
+  <body onLoad="javascript:volver();">
+  <?php
+// Se incluye el miniscript de tratamiento de fechas
+  include ("inc/fechas.php");
+// Se incluye el miniscript que abre la base de datos.
+  include ("inc/usarBD.php");
+ 
+// Se crea la hora, a partir de las horas y minutos establecidos en el formulario de nueva reserva.
+  $horaDeCita=$_POST["hora"].":".$_POST["minutos"];
+// Se monta la consulta para grabar una nueva reserva.
+ $consulta="INSERT INTO tbl_reserva (dia_reserva, hora_reserva, asunto_reserva) VALUES ('$fechaEnCurso','$horaDeReserva','".$_POST["asunto"]."');";
+// Se ejecuta la consulta.
+  $hacerConsulta=mysqli_query ($consulta,$conexion);
+// Se liberan recursos y se cierra la base de datos.
+  @mysqli_free_result($hacerConsulta);
+  mysqli_close($conexion);
+  
+  ?>
+  <form action="index.html" name="retorno" id="retorno" method="post">
+    <input type="hidden" name="fechaEnCurso" id="fechaEnCurso" value="<?php echo ($fechaEnCurso); ?>">
+  </form>
+  </body>
+</html>

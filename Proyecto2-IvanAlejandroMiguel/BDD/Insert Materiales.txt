@@ -1,0 +1,38 @@
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0001', 'Portatil1', 'Portatiles');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0002', 'Portatil2', 'Portatiles');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0003', 'Portatil3', 'Portatiles');
+
+
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0004', 'Movil1', 'Móviles');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0005', 'Movil2', 'Móviles');
+
+
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0006', 'Aula1', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0007', 'Aula2', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0008', 'Aula3', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0009', 'Aula4', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0010', 'Aula5', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0011', 'Aula6', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0012', 'Aula7', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0013', 'Aula8', 'Aulas');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0014', 'Aula9', 'Aulas');
+
+
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0015', 'Proyector', 'Otros');
+INSERT INTO bd_educayaprende.tbl_material (id_material, nombre_material, tipo_material) 
+	VALUES ('0016', 'Carro', 'Otros');

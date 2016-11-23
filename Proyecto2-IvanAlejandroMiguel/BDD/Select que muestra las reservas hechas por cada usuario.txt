@@ -1,0 +1,1 @@
+SELECT id_usuario, count(*) FROM tbl_reserva group by id_usuario

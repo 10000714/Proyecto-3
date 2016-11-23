@@ -1,0 +1,4 @@
+UPDATE tbl_reserva
+SET estado_reserva = 1, fechaF_reserva = CURRENT_TIMESTAMP
+WHERE id_reserva = selected
+	

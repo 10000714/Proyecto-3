@@ -1,0 +1,36 @@
+CREATE TABLE `tbl_usuario` ( 
+  `id_usuario` INT(5) NOT NULL AUTO_INCREMENT, 
+  `usuario_usuario` VARCHAR(20) NOT NULL, 
+  `password_usuario` VARCHAR(20) NOT NULL, 
+  `nombre_usuario` VARCHAR(15) NOT NULL, 
+  `apellidos_usuario` VARCHAR(30) NOT NULL,
+  `tipo_usuario` BOOLEAN NOT NULL, 
+  PRIMARY KEY  (`id_usuario`) 
+)
+
+CREATE TABLE `tbl_reserva` ( 
+  `id_reserva` INT(7) NOT NULL AUTO_INCREMENT, 
+  `fecha_reserva` DATETIME NOT NULL, 
+  `fechaF_reserva` DATETIME NOT NULL, 
+  `estado_reserva` BOOLEAN NOT NULL, 
+  `id_usuario` INT(5) NOT NULL, 
+  `id_material` int(4) NOT NULL,
+  PRIMARY KEY  (`id_reserva`) 
+)
+
+CREATE TABLE `tbl_material` ( 
+  `id_material` INT(4) NOT NULL AUTO_INCREMENT, 
+  `nombre_material` VARCHAR(20) NOT NULL, 
+  `tipo_material` VARCHAR(20) NOT NULL, 
+  `estado_material` BOOLEAN NOT NULL, 
+  `id_reserva` INT(7) NOT NULL, 
+  PRIMARY KEY  (`id_material`) 
+)
+
+CREATE TABLE  `tbl_incidencia` ( 
+  `id_incidencia` INT(3) NOT NULL AUTO_INCREMENT, 
+  `tipo_incidencia` VARCHAR(20) NOT NULL, 
+  `comentario_incidencia` TEXT NULL, 
+  `id_reserva` INT(7) NOT NULL, 
+  PRIMARY KEY  (`id_incidencia`) 
+)

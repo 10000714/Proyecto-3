@@ -1,0 +1,5 @@
+SELECT nombre_usuario, nombre_material, fecha_reserva, fechaF_reserva, estado_reserva FROM tbl_reserva
+			INNER JOIN tbl_usuario
+			ON tbl_reserva.id_usuario = tbl_usuario.id_usuario
+			INNER JOIN tbl_material
+			ON tbl_reserva.id_material = tbl_material.id_material

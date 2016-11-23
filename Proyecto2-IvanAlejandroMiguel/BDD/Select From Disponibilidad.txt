@@ -1,0 +1,3 @@
+SELECT id_reserva, nombre_material, estado_reserva AS Disponibilidad 
+FROM tbl_reserva
+INNER JOIN tbl_material
